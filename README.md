@@ -66,14 +66,14 @@ curl "http://localhost:8000/classes_in_timezone?tz=Asia/Kolkata"
 ```sh
 curl -X POST "http://localhost:8000/book" -H "Content-Type: application/json" -d '{
   "class_id": 1,
-  "client_name": "Alice",
-  "client_email": "alice@example.com"
+  "client_name": "Shankar",
+  "client_email": "shankar123@gmail.com"
 }'
 ```
 
 ### View Bookings by Email
 ```sh
-curl "http://localhost:8000/bookings?email=alice@example.com"
+curl "http://localhost:8000/bookings?email=shankar@gmail.com"
 ```
 
 ## Timezone Handling
